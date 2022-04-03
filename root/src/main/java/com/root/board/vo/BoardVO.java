@@ -1,0 +1,17 @@
+package com.root.board.vo;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class BoardVO {
+
+	private long no;
+	private String title;
+	private String pw;
+	private String content;
+	private String writer;
+	private Date writeDate;
+	private long hit;
+}
